@@ -6,7 +6,11 @@ import Timer from './timer';
 function App() {
   return (
     <div>
-      <Timer />
+      <Timer seconds={60} />
+      <Timer seconds={120} />
+      <Timer seconds={240} />
+      <Timer seconds={960} />
+      <Timer seconds={1920} />
     </div>
   );
 }
